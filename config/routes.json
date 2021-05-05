@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "mailchimp.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subscribe",
+      "handler": "mailchimp.subscribe",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
